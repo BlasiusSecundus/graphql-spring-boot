@@ -47,7 +47,7 @@ import static org.junit.jupiter.api.Assertions.fail;
 public class GraphQLTestSubscription {
 
     private static final int SLEEP_INTERVAL_MS = 100;
-    private static final int ACKNOWLEDGEMENT_AND_CONNECTION_TIMEOUT = 6000000;
+    private static final int ACKNOWLEDGEMENT_AND_CONNECTION_TIMEOUT = 60000;
     private static final AtomicInteger ID_COUNTER = new AtomicInteger(1);
     private static final UriBuilderFactory URI_BUILDER_FACTORY = new DefaultUriBuilderFactory();
 
