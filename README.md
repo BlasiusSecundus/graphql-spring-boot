@@ -22,8 +22,8 @@ and join the team!
   - [Quick start](#quick-start)
     - [Using Gradle](#using-gradle)
     - [Using Maven](#using-maven)
-- [Documentation](#documentation)
-- [Requirements and Downloads](#requirements-and-downloads)
+  - [Documentation](#documentation)
+  - [Requirements and Downloads](#requirements-and-downloads)
     - [Snapshots](#snapshots)
 - [Enable GraphQL Servlet](#enable-graphql-servlet)
 - [Enable Graph*i*QL](#enable-graphiql)
@@ -45,10 +45,8 @@ and join the team!
   - [Extended scalars](#extended-scalars)
 - [Tracing and Metrics](#tracing-and-metrics)
   - [Usage](#usage)
-- [FAQs](#faqs)
-  - [WARNING: NoClassDefFoundError when using GraphQL Java Tools > 5.4.x](#warning-noclassdeffounderror-when-using-graphql-java-tools--54x)
-
-- [Contributions](#contributions)
+  - [FAQs](#faqs)
+    - [WARNING: NoClassDefFoundError when using GraphQL Java Tools > 5.4.x](#warning-noclassdeffounderror-when-using-graphql-java-tools--54x)
 - [Licenses](#licenses)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -604,14 +602,6 @@ Starter parent of that Spring Boot version overrides it with a 1.2.* version of 
 this version you will run into a `NoClassDefFoundError`.
 
 Spring Boot team has indicated the Kotlin version will be upgraded to 1.3 in Spring Boot 2.2.
-
-
-
-
-# Contributions
-
-Contributions are welcome. Please respect
-the [Code of Conduct](http://contributor-covenant.org/version/1/3/0/).
 
 # Licenses
 
